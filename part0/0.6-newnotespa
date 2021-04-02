@@ -1,0 +1,10 @@
+title new note spa
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: 201
+
+note over browser:
+browser on submit send a request 
+to server and server returns a 
+response saying note is created
+end note
